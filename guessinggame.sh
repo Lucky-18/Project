@@ -1,5 +1,5 @@
 echo "--GUESSING--GAME"
-num=$(find /root/GG_TEST -type f | wc -l)
+num=$(find . -type f | wc -l)
 echo "How many folders are there in current directory ??"
 echo "can you guess it?"
 while [ true ]
